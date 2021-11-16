@@ -17,23 +17,12 @@
     "AUDIT_LOG_EXPORT_TABLE_NAME": {
       "label": "Audit Log Export Table Name",
       "description": "The table name of your BQ Audit data sink."
-    },
-    "CONFIG_PROJECT_NAME": {
-      "label": "Config Project Name"
     }
   },
   "models": [
     {
       "name": "block_bigquery_optimization_v2",
       "connection_constant": "CONNECTION_NAME"
-    }
-  ],
-  "auxiliary_projects": [
-    {
-      "git_uri": "git://github.com/looker/block-bigquery-optimization-config.git",
-      "git_ref": "f7910c9c378fbdc753884a797f06d4eec1ae11f4",
-      "label": "Google BigQuery Performance Config",
-      "constant_name": "CONFIG_PROJECT_NAME"
     }
   ]
 }

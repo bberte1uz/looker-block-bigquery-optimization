@@ -8,11 +8,11 @@ constant: CONNECTION_NAME {
 }
 
 constant: SCHEMA_NAME {
-  value: "looker_block_bigquery_optimization"
+  value: "looker_auditlog_sink"
   export: override_optional
 }
 
 constant: AUDIT_LOG_EXPORT_TABLE_NAME {
-  value: "looker_block_bigquery_optimization"
+  value: "cloudaudit_googleapis_com_data_access_*"
   export: override_optional
 }

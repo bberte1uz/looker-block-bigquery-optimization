@@ -3,7 +3,7 @@ project_name: "block-bigquery-optimization"
 ################# Constants #################
 
 constant: CONNECTION_NAME {
-  value: "looker_application"
+  value: "bigquery-dop-dev"
   export: override_optional
 }
 
@@ -13,6 +13,6 @@ constant: SCHEMA_NAME {
 }
 
 constant: AUDIT_LOG_EXPORT_TABLE_NAME {
-  value: "cloudaudit_googleapis_com_data_access_*"
+  value: "looker_auditlog_sink"
   export: override_optional
 }

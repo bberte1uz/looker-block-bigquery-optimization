@@ -8,7 +8,7 @@ constant: CONNECTION_NAME {
 }
 
 constant: SCHEMA_NAME {
-  value: "looker_app_audit_log"
+  value: "looker_block_bigquery_optimization"
   export: override_optional
 }
 

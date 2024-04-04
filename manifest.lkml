@@ -13,6 +13,6 @@ constant: SCHEMA_NAME {
 }
 
 constant: AUDIT_LOG_EXPORT_TABLE_NAME {
-  value: "looker_auditlog_sink"
+  value: "looker_block_bigquery_optimization"
   export: override_optional
 }
